@@ -228,3 +228,72 @@ h1,h2,h3,h4,h5,h6 {
     font-size: 0.8rem;
     justify-content: center
   }
+  /*******************
+  R E S P O N S I V E
+  ********************/
+  @media(max-width: 768px){
+  header {
+    height: 100vh;
+  }
+  hgroup{
+    padding: 27vh 0;
+  }
+  hgroup h1 {
+    font-size: 3rem;
+  }
+  hgroup h4 {
+    font-size: 0.9rem;
+  }
+  header nav {
+    padding-top: 90px;
+    margin-right: 40px;
+  }
+  header li {
+    padding: 0 15px;
+
+    margin: 7px 0;
+  }
+  header a {
+    text-shadow: 1px 3px 6px var(--orange);
+  }
+  header ul {
+    flex-direction: column;
+  }
+  .container {
+    flex-direction: column
+  }
+  .art33 {
+    padding: 0 0 0 0;
+  }
+  .art33 h3 {
+    padding: 50px 0 30px 0;
+  }
+  .two {
+    padding: 0 10%;
+  }
+  .categories {
+    flex-direction: column;
+  }
+  .blog {
+    padding-bottom: 50px
+  }
+  .blog:nth-child(2) {
+    padding: 0 0 50px 0;
+  }
+  .three {
+    flex-direction: column;
+    padding: 0 10% 50px 10%;
+  }
+  .NavigationDown {
+    padding: 50px 0 0 0;
+  }
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+  header nav {
+    padding-top: 60px;
+  }
+  header ul {
+    flex-direction: row;
+  }
+}
